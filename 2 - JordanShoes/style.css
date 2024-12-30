@@ -39,3 +39,48 @@ header > div > h1 > p {
     font-size: 24px;
     font-weight: 400;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    padding: 80px 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.texts > h1 {
+    font-size: 32px;
+}
+
+.texts > p {
+    font-size: 24px;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    gap: 32px;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+section img {
+    background-color: var(--dark-20);
+}

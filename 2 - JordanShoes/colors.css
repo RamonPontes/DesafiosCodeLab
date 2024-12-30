@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --dark-10: #121214;
+    --dark-20: #F3F7FF;
+    --dark-30: #FFFFFF;
+
+    --font: "Archivo", serif;;
+}
